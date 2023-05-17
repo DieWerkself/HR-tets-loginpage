@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Авторизация</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1>Войти в HR-Link</h1>
+    <img src="logo.png">
+  </header>
+  <section class="section">
+    <form class="form">
+      <div class="login_form">
+        <label class="label" for="Login">Email/Телефон/WhatsApp</label>
+        <input class="input" type="text" id="Login" />
+      </div>
+      <div class="password_form">
+        <div class="password_label">
+          <label class="label" for="Password">Пароль</label>
+          <a class="forgot_password" href="#">Не знаете пароль?</a>
+        </div>
+        <input class="input" type="password" id="Password" />
+        <i class="bi bi-eye-slash" id="togglePassword"></i> 
+      </div>
+      <button class="button">Войти</button>
+      <hr>
+    </form>
+  </section>
+  <footer class="footer">
+    <div class="copyright">
+      Copyright © 2023 HR-Link
+    </div>
+  </footer>
+</body>
+
+</html>
